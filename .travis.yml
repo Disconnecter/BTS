@@ -3,4 +3,4 @@ before_install:
   - brew update
   - brew reinstall xctool
 script:
-  - xctool -project BTS.xcodeproj -sdk iphonesimulator -scheme BTS -configuration Debug
+  - xctool -project BTS.xcodeproj -sdk macosx -scheme BTS -configuration Debug
